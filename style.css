@@ -1,0 +1,63 @@
+body{
+    background-image: url("image/violet-vector-leaves-circles-backgrounds-for-powerpoint_PdfkI4q.jpg");
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+.body{
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    background-color: #1da1f2;
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 3em;
+}
+
+
+
+.user-name{
+    background-color: white;
+    text-align: center;
+    padding: 80px;
+    margin: 70px;
+}
+
+.text-holder{
+    background-color: white;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding: 20px;
+}
+
+#textInput{
+    display: block;
+    width: 40em;
+    resize: none;
+    overflow: hidden;
+}
+
+button{
+    background-color: #1da1f2;
+    color: white;
+    float: right;
+    border-radius: 20%;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+}
+
+li{
+    background-color: white;
+    list-style: none;
+    margin: 10px;
+}
+
+button#btn[disabled]{
+    opacity: 0.3;
+    cursor: not-allowed;
+}

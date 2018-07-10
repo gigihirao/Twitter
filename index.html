@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+        <title>twitter</title>
+    </head>
+    <body>
+        <div class="header">
+            <h1 class="title">Twitter</h1> 
+        </div>
+        <div class="body">
+            <div class="user-name">
+                <h1>Giovanna Hirao</h1>
+                <p>@gigihirao</p>
+            </div>
+            <div class='text-holder'>
+                <textarea rows="5" id='textInput' placeholder="What's happening?"></textarea>
+                <p class="showCounter">140</p>
+                <button id="btn" onclick="tweet()" disabled>Tweet</button>
+            </div>
+        </div>
+        <ul class="tweets"></ul>
+        <script src="app.js"></script>
+    </body>
+</html>
