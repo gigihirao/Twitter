@@ -4,20 +4,27 @@ Produto com design parecido com do twitter e manipulação de informações para
 ## Versão 0.0.1
 
 Crie um formulário que permita inserir um texto e um botão para "twittar".
+
 Adicione um evento de click ao botão ou de submit no formulário.
+
 No evento, obter o texto.
+
 Adicione o texto ao HTML.
 
 ## Versão 0.0.2
 
 Não inserir texto vazio (desativar o botão "twittar").
+
 Conte o número de caracteres de forma regressiva.
 
 ## Versão 0.0.3
 
 Se você passar os 140 caracteres, desative o botão.
+
 Se você passar os 120 caracteres, mostre o contador com outra cor.
+
 Se você passar os 130 caracteres, mostre o contador com outra cor.
+
 Se você passar os 140 caracteres, mostre o contador em negativo.
 
 ## Versão 0.0.4
@@ -31,4 +38,5 @@ Se o número de caracteres digitados (sem dar um "enter") exceder o tamanho da �
 ## Versão 0.0.6
 
 Adicione a hora em que o tweet foi publicado no formato de 24 horas hh:mm.
+
 Nota: Para formatar a data e a hora, você pode criar sua própria função ou usar uma biblioteca como moment.js.
